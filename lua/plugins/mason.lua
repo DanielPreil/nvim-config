@@ -1,25 +1,40 @@
--- Customize Mason
-
 ---@type LazySpec
 return {
-  -- use mason-tool-installer for automatically installing Mason packages
   {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
-    -- overrides `require("mason-tool-installer").setup(...)`
     opts = {
-      -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        -- install language servers
-        "lua-language-server",
-
-        -- install formatters
-        "stylua",
-
-        -- install debuggers
+        "astro-language-server",
+        "basedpyright",
+        "black",
+        "codelldb",
+        "css-lsp",
+        "css-variables-language-server",
         "debugpy",
-
-        -- install any other package
+        "deno",
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+        "dotenv-linter",
+        "elixir-ls",
+        "emmet-ls",
+        "eslint-lsp",
+        "html-lsp",
+        "htmx-lsp",
+        "isort",
+        "js-debug-adapter",
+        "json-lsp",
+        "kotlin-language-server",
+        "lua-language-server",
+        "prettierd",
+        "prisma-language-server",
+        "selene",
+        "stylua",
+        "tailwindcss-language-server",
+        "taplo",
         "tree-sitter-cli",
+        "typescript-language-server",
+        "vtsls",
+        "zls",
       },
     },
   },
