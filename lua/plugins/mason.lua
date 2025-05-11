@@ -5,7 +5,7 @@ return {
     opts = {
       ensure_installed = {
         -- TypeScript/JavaScript
-        "typescript-language-server", -- TypeScript/JavaScript language server
+        "vtsls", -- TypeScript Language server
         "eslint-lsp", -- JavaScript/TypeScript linting
         "prettierd", -- Code formatting for web languages
 
