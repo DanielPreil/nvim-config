@@ -1,5 +1,6 @@
-if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- Enable true color support
+if vim.fn.empty(vim.env.TMUX) == 1 then
+  if vim.fn.has "termguicolors" == 1 then vim.opt.termguicolors = true end
+end
 
--- This will run last in the setup process.
--- This is just pure lua so anything that doesn't
--- fit in the normal config locations above can go here
+-- Any other custom configurations can go here

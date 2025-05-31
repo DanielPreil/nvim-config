@@ -36,6 +36,7 @@ return {
         "lua-language-server", -- Lua language server
         "stylua", -- Lua formatter
       },
+      automatic_installation = true,
     },
   },
 }
