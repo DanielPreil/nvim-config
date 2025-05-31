@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.astro" },
   -- import/override with your plugins folder
 }
